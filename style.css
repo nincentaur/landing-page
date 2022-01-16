@@ -1,0 +1,59 @@
+.hero, .footer {
+  background-color: #1f2937;
+}
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+a {
+text-decoration: none;
+padding: 8px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.hero-secondary, .right-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: light italic;
+  color: #1F2937;
+}
