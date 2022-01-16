@@ -1,12 +1,23 @@
-.hero, .footer {
-  background-color: #1f2937;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  padding: 8px;
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0px;
+}
+
+.header, .hero, .footer {
+  background-color: #1f2937;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header, .footer {
+  padding: 16px;
 }
 
 .logo {
@@ -23,8 +34,12 @@ ul {
 }
 
 a {
-text-decoration: none;
-padding: 8px;
+  text-decoration: none;
+}
+
+a.top-link {
+  padding: 8px;
+  color: #F9FAF8;
 }
 
 .hero-main {
@@ -38,14 +53,45 @@ padding: 8px;
   color: #e5e7eb;
 }
 
+.hero-left {
+  text-align: left;
+}
+
 button {
+  border: none;
+  border-radius: 8px;
   background-color: #3882F6;
+  padding: 8px 16px;
+  color: #F9FAF8;
+}
+
+.main-img {
+  width: 50%;
 }
 
 .info-header {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+img.infopic {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 16px;
+}
+
+.info {
+  max-width: 200px;
 }
 
 .quote-section {
@@ -54,6 +100,19 @@ button {
 
 .quote {
   font-size: 36px;
-  font-weight: light italic;
+  font-weight: light;
+  font-style: italic;
   color: #1F2937;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
