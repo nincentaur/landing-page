@@ -47,7 +47,7 @@ a.namelink {
 .hero {
   display: flex;
   justify-content: space-between;
-  padding-top: 120px;
+  padding-top: 160px;
   padding-bottom: 100px;
   padding-left: 10%;
   padding-right: 10%;
@@ -89,7 +89,7 @@ button {
 }
 
 .info-section {
-  padding-top: 10px;
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 
